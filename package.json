@@ -1,0 +1,28 @@
+{
+  "name": "aidc",
+  "version": "1.0.0",
+  "description": "AIDC Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crespoter/aidevelopercommunity.github.io.git"
+  },
+  "keywords": [
+    "nodejs",
+    "AI"
+  ],
+  "author": "AIDC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crespoter/aidevelopercommunity.github.io/issues"
+  },
+  "homepage": "https://github.com/crespoter/aidevelopercommunity.github.io#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
