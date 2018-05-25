@@ -2151,10 +2151,12 @@ font-weight: normal;
 
 
 .col-md-3{
-margin-right:-1px;
+margin-right: 97px;
 }
 
-
+.col-md-3-1{
+    margin-right: -1px;
+}
 
 /* ======================================== */
 /* toggle */
