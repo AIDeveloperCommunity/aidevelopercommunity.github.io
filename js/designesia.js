@@ -180,11 +180,14 @@ jQuery(document).ready(function() {
 			if (v_url.indexOf('#') != -1) {
 			var v_hash = v_url.substring(v_url.indexOf("#")+1);
 			
-			
-				jQuery('html, body').animate({					
-				scrollTop: jQuery('#' + v_hash).offset().top - 70
+			if(jQuery('#' + v_hash).offset() != null)
+			{
+				jQuery('html, body').animate({	
+
+					scrollTop: jQuery('#' + v_hash).offset().top - 70
 				}, 200);
 				return false;
+			}
 			}
 	});	
 			
@@ -654,9 +657,13 @@ jQuery(document).ready(function() {
 		jQuery('#homepage nav li a').each(function(){
 			if (this.href.indexOf('#') != -1) {
 			var href = jQuery(this).attr('href');
-				if(jQuery(window).scrollTop() > jQuery(href).offset().top - 140){
-					jQuery('nav li a').removeClass('active');
-					jQuery(this).addClass('active');
+			if(jQuery(href).offset() != null)
+			{
+				if(!jQuery(href).offset().top)
+					if(jQuery(window).scrollTop() > jQuery(href).offset().top - 140){
+						jQuery('nav li a').removeClass('active');
+						jQuery(this).addClass('active');
+					}
 				}
 			}
 		});
