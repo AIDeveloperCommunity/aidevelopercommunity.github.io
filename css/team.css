@@ -1,0 +1,205 @@
+/*divisions for obtaining responsiveness open*/
+{
+box-sizing:border-box;
+}
+		
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+@media screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 200%;
+        margin-left:5%;
+        margin-right:5%;
+        float:left;
+    }
+    
+    .l1l {
+    	margin-left:5.7%;
+    }
+    .l1r{
+    	margin-right:5.7%;
+ 	}
+    
+}
+@media screen and (min-width: 600px) {
+	.l1l {
+    	margin-left:8.4%;
+    }
+    .l1r{
+    	margin-right:8.4%;
+ 	}
+	.l2l {
+    	margin-left:6%;
+    }
+    .l2r{
+    	margin-right:5%;
+ 	}
+	.l3l {
+    	margin-left:18%;
+    }
+    .l3r{
+    	margin-right:15%;
+ 	}
+
+}
+
+/*divisions for obtaining responsiveness closed*/
+
+			
+/*hover and color effects open*/			
+.group {
+	position: relative;
+	float: left;
+	cursor: pointer;
+	}
+
+.group:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 30px 30px 30px 30px;
+	height: auto;
+	-webkit-transition: background 3000s linear;
+	filter: drop-shadow(8px 8px 10px gray);
+	}
+			
+.group:hover:before {
+	opacity:0;
+	bottom: 0;
+	height: 10%;
+	}
+/*hover and color effects closed*/			
+
+			
+/* color for various divs open */			
+.d1:before{
+	background: #00e6b8;
+	opacity:0.5;
+}
+.d2:before{
+	background: #944dff;
+	opacity:0.5;
+}
+.d3:before{
+	background: #ff80aa;
+	opacity:0.5;
+}
+.d4:before{
+	background: #ff8533;
+	opacity:0.5;
+}
+.d5:before{
+	background: #66ff66;
+	opacity:0.5;
+}
+.d6:before{
+	background: #ffff32;
+	opacity:0.5;
+}
+.d7:before{
+	background: #ff4d4d;
+	opacity:0.5;
+}
+
+/* color for various divs closed */
+
+
+img{
+	float:left;
+	border-radius:50%;
+}
+
+
+/* choosing widths for different img groups open*/
+.a{
+	width:25%;
+	height:auto;
+	}
+.b{
+	width:16.66%;
+	height:auto;
+	}
+.c{
+	width:50%;
+	height:auto;
+}
+/* choosing widths for different img groups closed*/
+
+				
+p{
+	text-align:center;
+	float:left;
+}
+				
+.namepara{
+	font-family:Sans-Serif;
+	color:rgba(0,0,255,0.5);
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	background:cyan;
+	border-radius: 13px 13px 13px 13px;			
+	text-align:center;
+}
+.w1{
+	width:25%;
+	height:auto;
+	}
+.w2{
+	width:16.66%;
+	height:auto;
+	}
+.w3{
+	width:50%;
+	height:auto;
+	}
+
+.l1l{
+	
+	margin-top:1%;
+	float:left;
+	
+	}
+.l1r{
+	
+	margin-top:1%;
+	float:left;
+	
+	}
+.l2l{
+	margin-top:1%;
+	float:left;
+	
+	}
+.l2r{
+	margin-top:1%;
+	float:left;
+	
+	}
+.l3l{
+	margin-top:3%;
+	float:left;
+	
+	}
+.l3r{
+	margin-top:3%;
+	float:left;
+	
+	}
+
