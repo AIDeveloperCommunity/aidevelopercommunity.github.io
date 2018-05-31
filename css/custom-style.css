@@ -44,8 +44,8 @@ background-size:cover;
 
 #landingText{
 	position: absolute;
-	top: 25%;
-	left: 50%;
+	top: 28%;
+	left: 40%;
 	
 }
 
@@ -54,11 +54,11 @@ background-size:cover;
 }
 
 #landingImage{
-	position: relative;
-	top: 10%;
-	left: 10%;
-	width: 600px;
-	height:600px;
+	position: static;
+	bottom: -50%;
+	left: 25%;
+	width: 700px;
+	height:700px;
 }
 
 
