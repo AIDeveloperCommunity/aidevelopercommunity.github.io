@@ -44,22 +44,27 @@ background-size:cover;
 
 #landingText{
 	position: absolute;
-	top: 28%;
-	left: 40%;
+	top: 3vw;
+	left: 43vw;
 	
 }
 
-#viewProectsLanding{
+#viewProjectsLanding{
 	position: center;
 }
 
 #landingImage{
-	position: static;
-	bottom: -50%;
-	left: 25%;
-	width: 700px;
-	height:700px;
+	position: relative;
+	top: 0vw;
+	left: 9vw;
+	width: 30vw;
+	height:35vw;
 }
+#landingButton {
+	position: absolute;
+	top: 80vw;
+	left: 50vw;
 
+}
 
 
