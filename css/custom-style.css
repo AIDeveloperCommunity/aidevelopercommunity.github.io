@@ -36,3 +36,30 @@ background-size:cover;
 
 #section-testimonial{ background:url(../images/background/bg-2.jpg) top fixed;}
 
+#navbarLogo {
+	height: 100px;
+	width: 200px;
+		
+}
+
+#landingText{
+	position: absolute;
+	top: 28%;
+	left: 40%;
+	
+}
+
+#viewProectsLanding{
+	position: center;
+}
+
+#landingImage{
+	position: static;
+	bottom: -50%;
+	left: 25%;
+	width: 700px;
+	height:700px;
+}
+
+
+

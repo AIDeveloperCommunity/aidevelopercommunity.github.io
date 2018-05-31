@@ -1,0 +1,55 @@
+<html>
+	<body>
+<div style="position: relative">		
+<a href="faq.html">
+		<div  id="cd1" class="cd" onmouseover="slidein(cd1slide,cd1displaydiv)" onmouseout="slideout(cd1slide,cd1displaydiv)"  style="position: absolute;height:20vw;top:50vw;left:13vw;width: 20vw;z-index: 100;overflow: hidden;" >
+		  <img src="./images/faq.svg" style="height:100%;width:100%" >
+		  <div id="cd1slide" style="position: absolute;height: 20%; width: 100%;top:100%;background-color: #414345;z-index: 1; opacity: 0;" >
+		    <span style="font-family:corexfont;font-size:1.3vw;position:relative;left:30%;top:25%;color:#ffffff; " >VIEW MORE</span>
+		  </div>
+		  <div id="cd1displaydiv" style="position:absolute;height:20%;  width: 100%;  top:80%;z-index: 101; background-color:rgba(245,245,245,1); " >
+		    <span style="font-family:corexfont;font-size:1vw;position:relative;left:21%;top:22%;color:#414345; " >Frequently Asked Questions</span>
+		  </div>
+
+		</div>
+		</a>
+		<a href="beforecontacting.html"
+		<div  id="cd2" class="cd" onmouseover="slidein(cd2slide,cd2displaydiv)" onmouseout="slideout(cd2slide,cd2displaydiv)" style="position: absolute;height:20vw;top:50vw;left:37vw;width: 20vw;z-index: 100;overflow: hidden;" >
+		  <img src="./images/interaction.svg" style="height:100%;width:100%" >
+		  <div id="cd2slide" style="position: absolute;height: 20%; width: 100%;top:100%;background-color: #414345;z-index: 1; opacity: 0;" >
+		    <span style="font-family:corexfont;font-size:1.3vw;position:relative;left:30%;top:25%;color:#ffffff; " >VIEW MORE</span>
+		  </div>
+		  <div id="cd2displaydiv" style="position:absolute;height:20%;  width: 100%;  top:80%;z-index: 101; background-color:rgba(245,245,245,1); " >
+		    <span style="font-family:corexfont;font-size:1.3vw;position:relative;left:21%;top:20%;color:#414345; " >Before Contacting us</span>
+		  </div>
+		</div>
+		</a>
+		<a href="howwework.html">
+		<div  id="cd3" class="cd" onmouseover="slidein(cd3slide,cd3displaydiv)" onmouseout="slideout(cd3slide,cd3displaydiv)" style="position: absolute;height:20vw;top:50vw;left:62vw;width: 20vw;z-index: 100;overflow: hidden;" >
+		  <img src="./images/123.svg" style="height:100%;width:100%" >
+		  <div id="cd3slide" style="position: absolute;height: 20%; width: 100%;top:100%;background-color:#414345;z-index: 1; opacity: 0;" >
+		    <span style="font-family:corexfont;font-size:1.3vw;position:relative;left:30%;top:25%;color:#ffffff; " >VIEW MORE</span>
+		  </div>
+		  <div id="cd3displaydiv" style="position:absolute;height:20%;  width: 100%;  top:80%;z-index: 101; background-color:rgba(245,245,245,1); " >
+		    <span style="font-family:corexfont;font-size:1.5vw;position:relative;left:21%;top:20%;color:#414345; " >How We Work</span>
+		  </div>
+		</div>
+		</a> </div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		function slidein(slide,displaydiv){
+		 $(slide).stop();
+		 $(displaydiv).stop();
+		 $(slide).animate({opacity:'1',top:'80%'},200);
+		 $(displaydiv).animate({top:'60%'},200);
+		}
+		function slideout(slide,displaydiv){
+		 $(slide).stop();
+		 $(displaydiv).stop();
+		 $(slide).animate({opacity:'0',top:'100%'},200);
+		 $(displaydiv).animate({top:'80%'},200);
+		}
+  </script>
+
+</html>
