@@ -1,1 +1,10 @@
+title: "AI Developer Community Website"
+author: "AI Developer Community"
+email: "aidevelopercommunity@gmail.com"
+description: > # this means to ignore newlines until "baseurl:"
+  AI Developer Community's Website.
+  AIDC Intel
+  Deep Model generator
+  DeepMG
+
 theme: jekyll-theme-cayman
